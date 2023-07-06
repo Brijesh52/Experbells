@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    /* border: 1px solid red; */
+}
+html{
+    font-size: 16px;
+}
+/* navigation starts */
+.expert{
+    width: 100%;
+}
+
+#nnn{
+    width: 100%;
+    padding-block: 10px;
+    background-color: #0C233B;
+}
+#nnn .ex{
+   color: #fff;
+   font-size: 30px;
+   
+}
+#nnn a{
+    color: #fff;
+    background-color: #0C233B;
+}
+#nnn button{
+   background-color: #fff;
+   color: #3D4F62;
+   border: 0;
+   border-radius: 15px;
+}
+#nnn #drop{
+    background-color: #0C233B;
+}
+/* navigation ends */
+
+.breadcrumb{
+    background-color: transparent;
+}
+
+/* header starts */
+.choose{
+    margin-block: 10px;
+}
+.choose .left h2{
+    color: #0C233B;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.choose .left .expertise{
+    width: 120px;
+    background-color: transparent;
+    border: 1px solid #3D4F62;
+    padding-block: 5px;
+    border-radius: 27px;
+}
+.choose .left .role{
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid #3D4F62;
+    padding-block: 5px;
+    border-radius: 27px;
+}
+.choose .right{
+    text-align: right;
+}
+.choose .right input{
+
+    width: 220px;
+    background-color: transparent;
+    border: 1px solid #3D4F62;
+    border-radius: 7px;
+    padding-block: 5px;
+    text-align: center;
+}
+/* header ends */
+
+
+/* middle section starts */
+
+.middle{
+    width: 100%;
+    margin-block: 100px;
+}
+.in{
+    border: 1px solid #3D4F62;
+    padding: 20px;
+}
+.middle .in .one {
+    text-align: center;
+}
+.middle .in .one img{
+    width: 100%;
+}
+.middle .in .one h6{
+    color:  #0C233BE5;
+    font-size: 1rem;
+}
+.middle .in .one h3{
+    color:  #4BAE4F;
+    font-size: 2rem;
+}
+.middle .two .blue{
+    width: 140px;
+    padding-block: 9px;
+   
+   margin-inline: 13px;
+   margin-block: 5px;
+   font-size: 15px;
+    border: 0px;
+    background-color: #E8F2FF;
+    border-radius: 16px;
+
+}
+.middle .three{
+    text-align: center;
+}
+.middle .three h3{
+    color: #0C233B;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.middle .three h5{
+  font-weight: 400;
+  font-size: 1.1rem;
+  color:  #0C233B;
+  margin-block: 15px;
+  
+}
+.middle .three p{
+    font-weight: 400;
+    color: #3D4F62;
+   
+    font-size: 0.9rem;
+}
+.middle .three h5 .fa{
+    margin-right: 8px;
+    font-size: 15px;
+}
+.middle .three button{
+    width: 220px;
+    border: 0px;
+    border-radius: 8px;
+    padding-block: 10px;
+    background-color: #0C233B;
+    color: #fff;
+}
+/* middle section ends */
+/* footer starts */
+
+.footer{
+    width: 100%;
+    background-color: #1C1E28;
+    color: #dfdfdf;
+    padding-block: 30px;
+}
+.footer .one h2{ 
+    font-size: 2.3rem;
+    color: #fff;
+    font-weight: 400;
+
+}
+.footer .one p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer .two{
+    padding-inline: 10px;
+}
+.footer .two h3{
+  font-size: 2rem;
+  color: #fff;
+}
+.footer .two .fa{
+    margin-right: 10px;
+    
+}
+.footer .three .fa{
+    margin-right: 10px;
+}
+.footer  hr{
+    /* width: 70%; */
+    background-color: #3D4F62;
+}
+.footer .expert{
+    width: 200px;
+    background-color: #fff;
+    border: 0;
+    padding-block: 10px;
+    color: #3D4F62;
+    border-radius: 27px;
+    font-weight: 500;
+}
+.footer .down .right{
+    text-align: right;
+}
+.footer .down .right .heart{
+    color: red;
+}
+/* footer ends */
+
+
+/* media quey starts */
+
+@media only screen and (max-width:998px){
+
+    .choose .right{
+        text-align: left;
+        margin-top: 10px;
+    }
+    .middle .in .one img{
+        width: 50%;
+    }
+    .in{
+        border: none;
+    }
+    .middle .two .blue{
+        margin-inline: 0px;
+    }
+
+    .middle .three {
+        text-align: left;
+    }
+
+
+    .footer .down .right{
+        text-align: left;
+    }
+}
+@media only screen and (max-width:1196px){
+    
+.middle .in .one img {
+    width: 50%;
+}
+.middle .three{
+    text-align: left;
+}
+}
+
+@media only screen and (max-width:494px){
+    
+.middle .two .blue{
+    margin-inline: 0px;
+}
+}
+/* media quey ends */
